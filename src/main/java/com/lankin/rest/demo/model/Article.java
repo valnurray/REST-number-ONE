@@ -26,6 +26,10 @@ public class Article {
         this.author = author;
     }
 
+    public Article(Long id) {
+        this.id = id;
+    }
+
     public Long getId() {
         return id;
     }
