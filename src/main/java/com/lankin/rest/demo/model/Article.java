@@ -34,6 +34,9 @@ public class Article {
         return id;
     }
 
+    /**
+    * it`s wrong
+    */
     public void setId(Long id) {
         this.id = id;
     }
